@@ -50,15 +50,17 @@ docker run -d --name Server-PostgresG1 -p 5455:5432 -e  POSTGRES_PASSWORD=123456
 
 ``` docker
 docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=P@ssw0rd" \
-   -u 0 \
-   -p 1450:1433 --name SQLServerG1 \
-   -d -v v-sqlserverg1:/var/opt/mssql/data \e07b9
-
+-u 0 \
+-p 1450:1433 \
+--name SQLServerG1 \
+-d \
+-v v-sqlserverg1:/var/opt/mssql/data \
+d38c2a
 ```
 ### Comandos de Docker
 | Comando | Descripción |
 | :--- | :--- |
-| **ocker --version**| _Muestra la version del Docker_|
+| **docker --version**| _Muestra la version del Docker_|
 | **docker pull nombre_imagen**| _Desacarga una imagen de Docker hub_|[Docker Hub](https://hub.docker.com/r/docker/getting-started)
 | **docker image**| _Mustra todas la imagenes_|
 | **docker run**| _Permite crear un contenedor_|

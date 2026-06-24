@@ -1,5 +1,5 @@
 # Ejercicio 1
-En un hospitl se registra información de sus pacientes
+En un hospital se registra información de sus pacientes
 # De cada paciente se desea almacenar
 - Algo que lo identifique
 - Nombre
@@ -11,10 +11,10 @@ En un hospitl se registra información de sus pacientes
 - Tipo Sangre
 
 # Regla de negocio
-1. 
-2. 
-3. 
-4. 
+1. Cada paciente deb tener exactamente un expediente médico.
+2. Cada expediente médico pertenece a un único paciente.
+3. No puede exitir un expediente sin un paciente.
+4. No puede esxistir un paciente sin un expediente.
 
 
 
