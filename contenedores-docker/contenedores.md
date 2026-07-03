@@ -1,5 +1,5 @@
 # Contenedores de sistemas gestores de Base de Datos
-![ImagenDocker](./img/Docker.png)
+![ImagenDocker](../img/Docker.png)
 ## Imagenes
 
 >Comandos para cada imagen
