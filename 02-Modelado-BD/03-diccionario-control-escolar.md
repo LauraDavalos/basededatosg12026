@@ -99,7 +99,7 @@ Almacena información de los estudiantes
 |  RN-05| Un grupo solo puede tener un profesor asignado |
 |  RN-06| La calificacoión debe estar entre 0.0 y 10.0|
 
-9. Diagrama relacional
+
 
 
 
