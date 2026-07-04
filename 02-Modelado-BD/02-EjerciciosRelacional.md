@@ -26,7 +26,7 @@ ESCUELA
 ![Escuela](../img/E-R/Ejercicio3.jpg)
 
 # Modelo relacional
-![Escuela](../img/E-R/Ejercicio3.jpg)
+![Escuela](../img/E-R/ModeloRe3.jpg)
 
 # Modelo E-R
 + Ejercicio 4
@@ -43,6 +43,24 @@ ESCUELA
 # Modelo Relacional
 
 ![Employe](../img/E-R/ModeloRe5.jpg)
+
++ Ejercicio 6
+
+# Modelo E-R
+![Cursos](../img/E-R/Ejercicio6.png)
+
+# Modelo Relacional
+
+![Cursos](../img/E-R/ModeloRe6.jpg)
+
++ Ejercicio 7
+
+# Modelo E-R
+
+
+# Modelo Relacional
+
+![](../img/E-R/ModeloRe7.jpg)
 
 
 
