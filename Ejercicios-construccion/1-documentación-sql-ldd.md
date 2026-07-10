@@ -68,3 +68,9 @@ Generalmente se combina con:
 **snake_case** es la convención más recomendada de ahora si se busca una nomenclatura moderna, portable y alineada con buenas practicas de distintos motores de Base de Datos.
 
 La razón es que la función de forma consistente en **SQLServer y MySQL** y especialmente en **postgresSQL**. Con snake_case se evitan problemas de máyusculas y hace que las consultas sean más legibles.
+
+
+**Estandar de construcción**
+| | Campo FK |Referencia|
+| :--- | :--- | :--- |
+|  Alumno| id_carrera | Carrera(id_carrera) |

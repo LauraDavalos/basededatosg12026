@@ -1,4 +1,4 @@
--- Creación de la BD empresa_yoda
+-- Creaciï¿½n de la BD empresa_yoda
 CREATE DATABASE empresa_yoda;
 GO
 
@@ -93,10 +93,10 @@ GO
 
 INSERT INTO contacto_proveedor(nombre, apellido_paterno, apellido_materno, telefono, proveedor_id)
 VALUES
-('Juan', 'Pérez', 'López', '12112123', 2),
-('María', 'García', 'Hernández', '1352567', 2),
-('Carlos', 'Ramírez', 'Torres', '1636533', 2),
-('Laura', 'Martínez', 'Soto', '154573', 1);
+('Juan', 'Pï¿½rez', 'Lï¿½pez', '12112123', 2),
+('Marï¿½a', 'Garcï¿½a', 'Hernï¿½ndez', '1352567', 2),
+('Carlos', 'Ramï¿½rez', 'Torres', '1636533', 2),
+('Laura', 'Martï¿½nez', 'Soto', '154573', 1);
 GO
 
 SELECT * FROM proveedor;
@@ -157,10 +157,10 @@ GO
 
 INSERT INTO contacto_proveedor(nombre, apellido_paterno, apellido_materno, telefono, proveedor_id)
 VALUES
-('Juan', 'Pérez', 'López', '12112123', 2),
-('María', 'García', 'Hernández', '1352567', 2),
-('Carlos', 'Ramírez', 'Torres', '1636533', 2),
-('Laura', 'Martínez', 'Soto', '154573', 1);
+('Juan', 'Pï¿½rez', 'Lï¿½pez', '12112123', 2),
+('Marï¿½a', 'Garcï¿½a', 'Hernï¿½ndez', '1352567', 2),
+('Carlos', 'Ramï¿½rez', 'Torres', '1636533', 2),
+('Laura', 'Martï¿½nez', 'Soto', '154573', 1);
 GO
 
 SELECT *
@@ -175,4 +175,4 @@ SELECT * FROM proveedor;
 SELECT * FROM contacto_proveedor;
 
 -- Integridad referencial ON DELETE Y ON UPDATE SET DEFAULT
---TODO: Realizar ejercicio completo de construcción de un diagrama relacional, aplicando las restricciones y se continua con ALTER Y DROP
+--TODO: Realizar ejercicio completo de construcciï¿½n de un diagrama relacional, aplicando las restricciones y se continua con ALTER Y DROP
