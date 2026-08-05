@@ -56,4 +56,4 @@ CREATE TABLE Inscribe (
 GO
 ```
 ## Diagrama final
-![ControlEscolar](../UTTT/images/controlescolar.png)
+![ControlEscolar](/images/controlescolar.png)
