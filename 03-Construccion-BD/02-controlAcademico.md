@@ -34,4 +34,4 @@ CREATE TABLE Curso (
 GO
 ```
 ## Diagrama final
-![controlAcademico](../UTTT/images/controlAcademico.png)
+![controlAcademico](/images/controlAcademico.png)
