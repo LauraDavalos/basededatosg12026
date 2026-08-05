@@ -33,5 +33,5 @@ CREATE TABLE Curso (
 );
 GO
 ```
-## Diagrama final
+## Diagrama finall
 ![controlAcademico](/images/controlAcademico.png)
