@@ -34,6 +34,6 @@ CREATE TABLE Expediente (
 GO
 ```
 # Diagrama final
-![hospital](../UTTT/images/Diagramas/hospital.png)
+![hospital](/images/hospital.png)
 
 

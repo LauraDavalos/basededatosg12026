@@ -66,4 +66,4 @@ CREATE TABLE Tiene (
 GO
 ```
 ## Diagrama Final
-![ControlVentas](../images/ControlVentass.png)
+![ControlVentas](/images/ControlVentass.png)
