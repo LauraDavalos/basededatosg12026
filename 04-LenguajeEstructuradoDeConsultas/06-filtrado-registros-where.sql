@@ -127,3 +127,40 @@ SELECT DISTINCT
 id_ciudad
 FROM ciudades;
 
+-- seleccionar los descuentos ùnicos que se aplican
+
+-- top: Limita la cantidad de filas devueltas por una consulta
+
+-- seleccionar los datos de los productos mostrando el código y el valor del inventario
+-- del inventario, donde el valor del inventario sea mayor
+
+SELECT
+p.codigo AS codigo_producto,
+p.existencia as EXISTENCIA
+p.precio AS precio,
+(p.precio*p.existencia) AS valor_inventario
+FROM producto AS P;
+
+WHERE valor_inventario>50000;
+
+--mostrar los productos con precio que este entre $200 y $300 que además que tengan
+
+SELECT
+p.codigo AS codigo_producto,
+p.existencia as EXISTENCIA
+p.precio AS precio,
+(p.precio*p.existencia) AS valor_inventario
+FROM producto AS p;
+WHERE precio<=200 AND precio<=300
+
+-- Instrucción between 
+SELECT
+p.codigo AS codigo_producto,
+p.existencia as EXISTENCIA
+p.precio AS precio,
+(p.precio*p.existencia) AS valor_inventario
+FROM producto AS P;
+WHERE precio BETWEEN 200 AND 300;
+
+
+
